@@ -9,7 +9,6 @@ class Product {
         price = p;
     }
 }
-
 public class Shopping {
     public static void main(String[] args) {
         ArrayList<Product> cart = new ArrayList<>();
