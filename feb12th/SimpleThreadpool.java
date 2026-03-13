@@ -33,6 +33,7 @@ public class SimpleThreadpool {
                     System.out.println("Task " + taskNumber + " completed");
                 }
             });
+
         }
 
         executor.shutdown();
@@ -46,5 +47,6 @@ public class SimpleThreadpool {
         }
 
         System.out.println("Executor closed properly.");
+    executor.close();
     }
 }
