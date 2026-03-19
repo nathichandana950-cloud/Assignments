@@ -1,0 +1,6 @@
+num = input("Enter number seperated by space :")
+number=[int(x) for x in num.split()] # Convert input string into a list of integers(splits the string and converts each piece to an integer.)
+ascending=sorted(number)
+descending=sorted(number,reverse=True)
+print("Number in ascending order:",ascending)
+print("Number in descending order:",descending)
