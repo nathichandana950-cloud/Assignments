@@ -1,0 +1,5 @@
+/data/
+*.mv.db
+*.log
+bin/
+target/
